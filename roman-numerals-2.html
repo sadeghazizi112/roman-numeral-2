@@ -1,3 +1,25 @@
-
-<label for="quantity">Quantity (between 1 and 3999):</label>
-<input type="number" id="input" name="quantity" min="1" max="3999">
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Roman Numerals-2</title>
+  </head>
+  <body>
+    <div class= "container">
+      <h1>Roman Numerals-2</h1>
+      <form id="numbers">
+        <div class= "word-group">
+          <label for="englishnumber">Roman Numeral Conversion (between 1 and 3999):</label>
+          <input id="englishnumber" type="number" min="1" max="3999">
+        </div>
+        <button type= "submit" class= "btn"> Convert to Roman Numerals! </button>
+      </form>
+      <div id="result">
+        <p class = "finalresult"></p>
+      </div>
+    </div>
+  </body>
+</html>
